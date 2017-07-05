@@ -51,4 +51,4 @@ Simply enter your logo url (use a image service like [Imgur](https://imgur.com) 
 - Censored words when posting paste
 - Syntax highlighting when viewing paste
 
-** REQUEST MORE in the ISSUE tab! **
+**REQUEST MORE in the ISSUE tab!**
