@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,800,900');
+/* color: rgba(227,21,141,1) */
+::-webkit-scrollbar {
+  width:12px;
+  height:12px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+}
+
+::-webkit-scrollbar-track {
+  background:rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background:rgba(227,21,141,1);
+}
+
+body {
+  height:100vh;
+  font-family: 'Montserrat',sans-serif;
+  background: #141414;
+}
+
+.link_login {
+  color:rgba(255,255,255,0.6);
+}
+
+.link_login a {
+  text-decoration: none;
+  color: rgba(227,21,141,1);
+}
+
+.main-wrapper {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+}
+
+.container .login-form label {
+  color:rgba(255,255,255,0.9)
+}
+
+.form-control {
+  background:rgba(255,255,255,0);
+  color:rgba(255,255,255,0.5);
+  border:0px;
+  border-bottom:2px solid rgba(255,255,255,0.05);
+  border-radius: 0px;
+  height:50px;
+  padding:0px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+}
+
+.form-control:hover,
+.form-control:focus{
+  color:#fff;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  height:75px;
+  background:rgba(255,255,255,0);
+  border-bottom:2px solid rgba(227,21,141,1);
+}
+
+textarea.form-control,
+textarea.form-control:hover {
+  height:200px;
+}
+
+textarea.form-control:focus {
+  height:500px;
+}
+
+.container .login-form h1{
+  text-align: center;
+  font-weight: bold;
+  color:rgba(227,21,141,1);
+}
+
+.container .login-form .form-header {
+  margin-bottom:20px;
+}
+
+.container .login-form img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100px;
+  margin-bottom:20px;
+  height: auto;
+}
+
+.btn.btn-primary {
+  border-radius:0px;
+  border:0px;
+  background:rgba(255,255,255,0.05);
+  width:100%;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+}
+
+.btn.btn-primary:hover {
+  padding:20px;
+  background:rgba(227,21,141,1);
+  cursor:pointer;
+}
+
+div.error {
+  color:#fff;
+  background:red;
+  padding:10px;
+  margin-bottom:20px;
+}
+
+div.success {
+  color:#fff;
+  background:green;
+  padding:10px;
+  margin-bottom:20px;
+}
+
+nav .user {
+  color:rgba(227,21,141,1);
+  font-weight: 600;
+}
+
+.navbar {
+  background:rgba(255,255,255,.1);
+  padding: 2rem;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:active  {
+  text-transform: uppercase;
+  color:rgba(227,21,141,1);
+  font-weight: 400;
+  font-weight: bold;
+}
+
+
+.navbar ul > li > a {
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+}
+
+.navbar ul > li > a:hover,
+.navbar ul > li > a:active {
+  cursor: pointer;
+}
+
+.navbar img {
+  margin-right:10px;
+}
+
+.content-wrapper {
+  background:rgba(255,255,255,0.125);
+  color:rgba(255,255,255,0.8);
+  padding:30px;
+}
+
+.content-wrapper .rules {
+  margin-bottom:30px;
+  padding:20px;
+  background:rgba(255,255,255,0.050);
+}
+
+.content-wrapper .rules h3{
+  color: rgba(227,21,141,1);
+  font-weight:600;
+}
+
+.content-wrapper input.form-control:hover,
+.content-wrapper input.form-control:focus,
+.content-wrapper select.form-control:hover,
+.content-wrapper select.form-control:focus {
+  height:50px;
+}
+
+
+@-webkit-keyframes autofill {
+    to {
+      background:transparent;
+      color:#fff;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+pre {
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.1);
+  color:#fff;
+}
+
+.content-wrapper .col-md-6 .row #paste_title{
+  margin-top:10px;
+}
+
+.content-wrapper .col-md-6 .row .paste_title_name {
+  color: rgba(227,21,141,1);
+}
+
+.table {
+  background:rgba(0,0,0,0);
+}
+
+.table th{
+  border:1px solid rgba(255,255,255,.1);
+}
+
+inverse thead th {
+    border:0px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border:0px;
+}
+
+.table-inverse td, .table-inverse th, .table-inverse thead th {
+    border-color: rgb(48, 48, 48);
+}
+
+.btn.btn-success {
+  margin:0;
+  border-radius:0px;
+  border:0px;
+  background: #33d725;
+  height:100%;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+}
+
+.btn.btn-success:hover {
+  background:#33d725;
+  cursor:pointer;
+}
+
+.btn.btn-danger {
+  margin-right:5px;
+  margin:0;
+  border-radius:0px;
+  border:0px;
+  background:rgb(247, 74, 74);
+  height:100%;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+}
+
+.btn.btn-danger:hover {
+  background:rgb(246, 47, 47);
+  cursor:pointer;
+}
+
+_tables.scss:12
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+}
+
+.code-type-template {
+  color:#fff;
+  margin-top:30px;
+  padding: .5rem 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.code-type-template-content {
+  float:right;
+  color:#fff;
+  padding:10px;
+  width:auto;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom:20px;
+}
+
+.html-code  {
+  background:rgb(245, 78, 26);
+}
+
+.css-code  {
+  background:rgb(30, 245, 26);
+}
+
+.json-code  {
+  background:rgb(73, 73, 73);
+}
+
+.javascript-code  {
+  background:rgb(120, 0, 255);
+}
+
+.php-code  {
+  background:rgb(29, 128, 219);
+}
+
+.java-code  {
+  background:rgb(249, 208, 32);
+}
+
+.other-code {
+  background:#fff;
+  color:#333;
+}
+
+.footer {
+  background:rgba(255,255,255,.1);
+  padding:30px;
+}
+
+.footer img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:200px;
+  height:auto;
+}
+
+.footer h3 {
+  font-weight: 400;
+  color: rgba(227,21,141,1)
+}
+
+.footer p {
+  color:rgba(255,255,255,0.7);
+}
+
+.footer a {
+  text-decoration: none;
+  color:#fff;
+}
+
+.footer .col-md-4 {
+  border-right:1px solid rgba(255,255,255,.1);
+}
+
+.footer ul li {
+  display: list;
+}
+
+a.link {
+  text-decoration: none;
+  color:rgba(255,255,255,0.9);
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+}
+
+a.link:hover {
+  color: rgba(227,21,141,1);
+  cursor: pointer;
+}
+
+td a.link {
+  border-bottom:1px solid rgba(255,255,255,.1);
+}
