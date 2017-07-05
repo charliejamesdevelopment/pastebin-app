@@ -8,15 +8,16 @@ Contact me here: [Charlie James Development](https://charliejames.me)
 # Installation
 This application requires PHP 5.6.1 or greater with a MySQL database to store the users and pastes themselves.
 
-```
+This will clone the github repo into a folder called *pastebin-app* where ever you clone it.
+```terminal
 $ git clone https://github.com/charliejamesdevelopment/pastebin-app pastebin-app
 ```
 
 The project itself only depends on the follow:
-** Web Server **
-** PHP **
-** MySQL Database **
-And thats it! 
+- Web Server
+- PHP
+- MySQL Database
+*And thats it!* 
 
 *For users who have an SSL certificate, this application is also compatible*
 
