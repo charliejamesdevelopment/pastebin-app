@@ -1,6 +1,3 @@
-**I still have yet to go through and remove unused variables, and stuff like that. Won't affect the end user but is needed.
-Register is currently disabled, will fix it soon. **
-
 # pastebin-app
 Created this application originally for personal use. However I thought people could use it for a base to develop their own, or even use this app as their own. Please do as you wish with it but make sure to give credit to me!
 
